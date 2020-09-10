@@ -9,6 +9,13 @@
   </url>
   
   <url>
+    <loc>http://example.com/2020/03/06/GitHub%E6%B3%A8%E5%86%8C-%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E7%A8%8B/</loc>
+    
+    <lastmod>2020-09-10</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://example.com/link/index.html</loc>
     
     <lastmod>2020-09-10</lastmod>
@@ -36,13 +43,6 @@
     
   </url>
   
-  <url>
-    <loc>http://example.com/2020/09/09/hello-world/</loc>
-    
-    <lastmod>2020-09-09</lastmod>
-    
-  </url>
-  
 
   <url>
     <loc>http://example.com/</loc>
@@ -53,6 +53,13 @@
 
   
   <url>
+    <loc>http://example.com/tags/Git/</loc>
+    <lastmod>2020-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</loc>
     <lastmod>2020-09-10</lastmod>
     <changefreq>daily</changefreq>
@@ -60,6 +67,13 @@
   </url>
   
 
+  
+  <url>
+    <loc>http://example.com/categories/Git/</loc>
+    <lastmod>2020-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
   <url>
     <loc>http://example.com/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</loc>
