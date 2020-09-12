@@ -34,11 +34,11 @@
   }
   /* 鼠标样式 */
   body {
-    cursor: url(blog/source/mysrc/default.cur),
+    cursor: url(https://img.jcxiaozhan.top/default.cur),
         default;
 }
 a,
 img {
-    cursor: url(blog/source/mysrc/pointer.cur),
+    cursor: url(https://img.jcxiaozhan.top/pointer.cur),
         default;
 }
