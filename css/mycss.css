@@ -32,3 +32,13 @@
     color: #fff;
     background-color: #49b1f5;
   }
+  /* 鼠标样式 */
+  body {
+    cursor: url(blog/source/mysrc/default.cur),
+        default;
+}
+a,
+img {
+    cursor: url(blog/source/mysrc/pointer.cur),
+        default;
+}
