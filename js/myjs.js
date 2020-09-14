@@ -1,3 +1,4 @@
+// 网站页脚计时
 function secondToDate(second) {
     if (!second) {
         return 0;
@@ -32,7 +33,6 @@ function setTime() {
     currentTimeHtml = "小站艰难维持了：" + currentTime[1] + '天' + currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4] + '秒';
     document.getElementById("htmer_time").innerHTML = currentTimeHtml;
 }    setInterval(setTime, 1000);
-
 
 //动态网站名
 var OriginTitile = document.title;
