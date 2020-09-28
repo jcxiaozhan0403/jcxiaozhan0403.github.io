@@ -42,7 +42,3 @@ img {
     cursor: url(https://img.jcxiaozhan.top/pointer.cur),
         default;
 }
-/* 说说背景色 */
-#artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after,#artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel,#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel:after,#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel{
-  border-right-color: rgb(60, 60, 60);
-}
