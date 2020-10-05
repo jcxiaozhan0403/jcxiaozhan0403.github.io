@@ -172,13 +172,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/JSON/</loc>
-    <lastmod>2020-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</loc>
     <lastmod>2020-10-05</lastmod>
     <changefreq>daily</changefreq>
@@ -193,7 +186,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E6%A5%9A%E7%95%99%E9%A6%99/</loc>
+    <loc>http://example.com/tags/JSON/</loc>
     <lastmod>2020-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -201,6 +194,13 @@
   
   <url>
     <loc>http://example.com/tags/Markdown/</loc>
+    <lastmod>2020-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/%E6%A5%9A%E7%95%99%E9%A6%99/</loc>
     <lastmod>2020-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
