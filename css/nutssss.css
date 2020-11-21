@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: linear-gradient(to left, rgba(255, 0, 149, 0.2), rgba(0, 247, 255, 0.2)), url(../img/bg.jpg);
+    background-image: linear-gradient(to left, rgba(255, 0, 149, 0.2), rgba(0, 247, 255, 0.2)), url("https://img.jcxiaozhan.top/%E5%AF%BC%E8%88%AA%E9%A1%B5%E8%83%8C%E6%99%AF.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
