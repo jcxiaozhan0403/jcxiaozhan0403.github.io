@@ -52,9 +52,9 @@ document.addEventListener('visibilitychange', function() {
 
 //评论激活
 
-// //第一步：建立所需的对象
-// var httpRequest = new XMLHttpRequest();
-// //第二步：打开连接  将请求参数写在url中
-// httpRequest.open('GET', 'https://jcxiaozhan.avosapps.us/', true);
-// //第三步：发送请求  将请求参数写在URL中
-// httpRequest.send();
+//第一步：建立所需的对象
+var httpRequest = new XMLHttpRequest();
+//第二步：打开连接  将请求参数写在url中
+httpRequest.open('GET', 'https://jcxiaozhan.avosapps.us/', true);
+//第三步：发送请求  将请求参数写在URL中
+httpRequest.send();
