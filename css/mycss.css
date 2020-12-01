@@ -52,3 +52,16 @@ a,img {
 .fa-envelope{
   color: #FFA500;
 }
+
+/* 页脚版权美化 */
+#footer .framework-info a{
+  padding: 0px 4px 2px 4px;
+  border-radius: 20px;
+  background:#ff7242;
+}
+
+#footer .framework-info a:nth-child(2){
+  padding: 0px 4px 2px 4px;
+  border-radius: 20px;
+  background:#49b1f5;
+}
