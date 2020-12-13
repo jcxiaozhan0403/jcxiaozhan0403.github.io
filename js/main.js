@@ -7,8 +7,6 @@
   */
 
 $(function () {
-  import 'default-passive-events';
-
   const blogNameWidth = $('#site-name').width()
   const menusWidth = $('#menus').width()
   const sidebarWidth = $('#sidebar').width() || 300
