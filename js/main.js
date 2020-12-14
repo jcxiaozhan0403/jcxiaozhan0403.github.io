@@ -806,24 +806,6 @@ $(function () {
     switchComments()
   }
 
-//解决报错
-require('default-passive-events'); 
-
-preventBackScroll = (e) => { 
-  e.preventDefault(); 
-  e.stopPropagation(); 
-} 
-
-renderModal = (e) => { 
-  // 阻止滚动 
-  document.addEventListener('touchmove', this.preventBackScroll, { passive: false, capture: true }); 
-  // 遮罩层实现代码省略 
-  return <div onClose={(e) => { 
-    // 关闭遮罩层时放开 
-    document.removeEventListener('touchmove', this.preventBackScroll, { passive: false, capture: true }); 
-  }}></div> 
-} 
-
   refreshFn()
   unRefreshFn()
 })
