@@ -50,6 +50,13 @@ document.addEventListener('visibilitychange', function() {
                 }
 });
 
+//解决跨站访问的问题
+var head = document.getElementsByTagName("head");
+var meta = document.createElement('meta');
+meta.name = "referrer";
+meta.content = "no-referrer";
+head[0].appendChild(meta);
+
 // //评论激活
 
 // //第一步：建立所需的对象
