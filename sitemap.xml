@@ -193,6 +193,13 @@
   </url>
   
   <url>
+    <loc>https://jcxiaozhan.gitee.io/tags/JSON/</loc>
+    <lastmod>2021-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jcxiaozhan.gitee.io/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</loc>
     <lastmod>2021-05-15</lastmod>
     <changefreq>daily</changefreq>
@@ -201,13 +208,6 @@
   
   <url>
     <loc>https://jcxiaozhan.gitee.io/tags/JavaScript/</loc>
-    <lastmod>2021-05-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/JSON/</loc>
     <lastmod>2021-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -242,6 +242,13 @@
   </url>
   
   <url>
+    <loc>https://jcxiaozhan.gitee.io/tags/PanDownload/</loc>
+    <lastmod>2021-05-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jcxiaozhan.gitee.io/tags/Java/</loc>
     <lastmod>2021-05-15</lastmod>
     <changefreq>daily</changefreq>
@@ -250,13 +257,6 @@
   
   <url>
     <loc>https://jcxiaozhan.gitee.io/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2021-05-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/PanDownload/</loc>
     <lastmod>2021-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -279,14 +279,14 @@
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</loc>
+    <loc>https://jcxiaozhan.gitee.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2021-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://jcxiaozhan.gitee.io/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</loc>
     <lastmod>2021-05-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
