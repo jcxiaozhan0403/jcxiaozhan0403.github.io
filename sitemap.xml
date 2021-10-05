@@ -228,6 +228,13 @@
 
   
   <url>
+    <loc>https://jcxiaozhan.gitee.io/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2021-10-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jcxiaozhan.gitee.io/tags/Git/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
@@ -235,7 +242,7 @@
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
+    <loc>https://jcxiaozhan.gitee.io/tags/JavaScript/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -263,7 +270,7 @@
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/JavaScript/</loc>
+    <loc>https://jcxiaozhan.gitee.io/tags/Mybatis/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -278,13 +285,6 @@
   
   <url>
     <loc>https://jcxiaozhan.gitee.io/tags/Hexo/</loc>
-    <lastmod>2021-10-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/Mybatis/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -312,14 +312,14 @@
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://jcxiaozhan.gitee.io/tags/PanDownload/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/PanDownload/</loc>
+    <loc>https://jcxiaozhan.gitee.io/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -328,14 +328,14 @@
 
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://jcxiaozhan.gitee.io/categories/%E9%97%B2%E8%B0%88/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/categories/%E9%97%B2%E8%B0%88/</loc>
+    <loc>https://jcxiaozhan.gitee.io/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2021-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
