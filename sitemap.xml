@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jcxiaozhan.gitee.io/2021/11/10/%E8%BF%91%E5%86%B5/</loc>
+    
+    <lastmod>2021-11-10</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jcxiaozhan.gitee.io/2021/05/31/Mybatis%E7%9A%84%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2021-11-01</lastmod>
@@ -263,14 +270,14 @@
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/JavaScript/</loc>
+    <loc>https://jcxiaozhan.gitee.io/tags/JSON/</loc>
     <lastmod>2021-11-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/JSON/</loc>
+    <loc>https://jcxiaozhan.gitee.io/tags/JavaScript/</loc>
     <lastmod>2021-11-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -327,6 +334,13 @@
   
   <url>
     <loc>https://jcxiaozhan.gitee.io/tags/PanDownload/</loc>
+    <lastmod>2021-11-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcxiaozhan.gitee.io/tags/%E8%BF%91%E5%86%B5/</loc>
     <lastmod>2021-11-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
