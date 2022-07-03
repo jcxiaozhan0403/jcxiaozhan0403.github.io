@@ -331,20 +331,6 @@
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/JSON/</loc>
-    <lastmod>2022-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/JavaScript/</loc>
-    <lastmod>2022-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://jcxiaozhan.gitee.io/tags/Java/</loc>
     <lastmod>2022-07-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -353,6 +339,20 @@
   
   <url>
     <loc>https://jcxiaozhan.gitee.io/tags/Hibernate/</loc>
+    <lastmod>2022-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcxiaozhan.gitee.io/tags/JSON/</loc>
+    <lastmod>2022-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcxiaozhan.gitee.io/tags/JavaScript/</loc>
     <lastmod>2022-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -408,14 +408,14 @@
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/PanDownload/</loc>
+    <loc>https://jcxiaozhan.gitee.io/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2022-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://jcxiaozhan.gitee.io/tags/PanDownload/</loc>
     <lastmod>2022-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
