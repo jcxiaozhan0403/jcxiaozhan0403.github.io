@@ -340,6 +340,20 @@
   </url>
   
   <url>
+    <loc>https://jcxiaozhan.gitee.io/tags/Java/</loc>
+    <lastmod>2022-07-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcxiaozhan.gitee.io/tags/Hibernate/</loc>
+    <lastmod>2022-07-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jcxiaozhan.gitee.io/tags/JSON/</loc>
     <lastmod>2022-07-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -354,21 +368,7 @@
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/Java/</loc>
-    <lastmod>2022-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://jcxiaozhan.gitee.io/tags/Mybatis/</loc>
-    <lastmod>2022-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/Hibernate/</loc>
     <lastmod>2022-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -403,14 +403,7 @@
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2022-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/%E7%99%BE%E5%BA%A6%E4%BA%91/</loc>
+    <loc>https://jcxiaozhan.gitee.io/tags/%E6%A5%9A%E7%95%99%E9%A6%99/</loc>
     <lastmod>2022-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -424,7 +417,14 @@
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/%E6%A5%9A%E7%95%99%E9%A6%99/</loc>
+    <loc>https://jcxiaozhan.gitee.io/tags/%E7%99%BE%E5%BA%A6%E4%BA%91/</loc>
+    <lastmod>2022-07-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcxiaozhan.gitee.io/tags/%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2022-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
