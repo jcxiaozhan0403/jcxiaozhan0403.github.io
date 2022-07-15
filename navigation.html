@@ -9,6 +9,17 @@
 		<link rel="stylesheet" href="css/main.css" />
 		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
 	</head>
+	<script>
+		window.onload = init;
+
+		function init(){
+			let date=new Date();
+			//四位
+			let yearFour=date.getFullYear();
+			let nowYear = document.getElementById('nowYear');
+			nowYear.innerHTML = '©2020~' + yearFour + ' ';
+		}
+	</script>
 	<body> 
 
 		<!-- Wrapper -->
@@ -21,7 +32,7 @@
 							<div class="inner">
 								<h3>John.Cena</h3>
 								<p>平平无奇的大三学生</p>
-								<p>代码书写人生</p>
+								<p>热爱编程的摆烂人</p>
 							</div>
 						</div>
 						<nav>
@@ -38,8 +49,7 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">©2021 <a href="https://jcxiaozhan.gitee.io" target="_blank" >JC小站</a> 版权所有</p>
-
+						<p class="copyright"><span id="nowYear"></span><a href="https://jcxiaozhan.gitee.io" target="_blank" >JC小站</a> 版权所有</p>
 					</footer>
 
 			</div>
