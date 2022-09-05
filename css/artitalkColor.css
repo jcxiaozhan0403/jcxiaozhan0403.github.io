@@ -59,7 +59,7 @@ div#artitalk_main {
 	margin: 0 0 45px 65px;
 	z-index: 1;
 	background: " + color2 + ";
-	color: " + color3 + " ;
+	color: #e3dede ;
 	padding: 0.8em 1.2em 0.4em 1.2em;
 	/* font-size: 1.2em;*/
 	font-weight: 300;
@@ -77,7 +77,7 @@ div#artitalk_main {
 	box-shadow: 0 15px 32px rgba(0,0,0,0.15) ;
 }
 #artitalk_main .cbp_tmtimeline>li: nth-child(odd) .cbp_tmlabel {
-	background: " + color1 + ";
+	background: #333030;
 }
 #artitalk_main .cbp_tmtimeline>li .cbp_tmlabel: after {
 	right: 100%;
@@ -93,7 +93,7 @@ div#artitalk_main {
 	top: 4px;
 }
 #artitalk_main .cbp_tmtimeline>li: nth-child(odd) .cbp_tmlabel: after {
-	border-right-color: " + color1 + ";
+	border-right-color: #333030;
 }
 #artitalk_main p.shuoshuo_time {
 	margin-top: 10px;
@@ -153,11 +153,11 @@ div#artitalk_main {
 	color: #999;
 }
 #operare_artitalk .at_button, #artitalk_main .at_button {
-	background-color: " + color1 + ";
+	background-color: #333030;
 	/* Green*/
 	border: none;
 	margin-left: 5px;
-	color: " + color3 + ";
+	color: #e3dede;
 	padding: 8px 16px;
 	text-align: center;
 	text-decoration: none;
@@ -566,27 +566,30 @@ p.shuoshuo_time>span>a {
 
 /* 说说自定义配色 */
 #artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel {
+background: #333030;
+color: #e3dede;
+}
+#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel {
 	background: #333030;
 	color: #e3dede;
-  }
-  #artitalk_main .cbp_tmtimeline>li .cbp_tmlabel {
-	background: #333030;
-	color: #e3dede;
-  }
-  #artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after {
+}
+#artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after {
 	border-right-color:  #333030;
-  }
-  #artitalk_main .cbp_tmtimeline>li .cbp_tmlabel:after {
+}
+#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel:after {
 	border-right-color:  #333030;
-  }
-  #artitalk_main .button {
+}
+#artitalk_main .button {
 	background: #333030;
 	color: #e3dede;
-  }
-  #artitalk_main button#readmore.at_button{
-	  background: #333030;
-	  color: #e3dede;
-  }
-  #artitalk_main button#readmore.at_button:hover{
-	  background: #787878;
-  }
+}
+#artitalk_main button#readmore.at_button{
+	background: #333030;
+	color: #e3dede;
+}
+#artitalk_main button#readmore.at_button:hover{
+	background: #787878;
+}
+#operare_artitalk .at_button, #artitalk_main .at_button:hover{
+	background: #787878;
+}
