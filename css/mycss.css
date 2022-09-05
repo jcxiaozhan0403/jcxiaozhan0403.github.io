@@ -65,30 +65,3 @@ a,img {
   border-radius: 20px;
   background:#49b1f5;
 }
-
-/* 说说自定义配色 */
-#artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel {
-  background: #333030;
-  color: #e3dede;
-}
-#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel {
-  background: #333030;
-  color: #e3dede;
-}
-#artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after {
-  border-right-color:  #333030;
-}
-#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel:after {
-  border-right-color:  #333030;
-}
-#artitalk_main .button {
-  background: #333030;
-  color: #e3dede;
-}
-#artitalk_main button#readmore.at_button{
-    background: #333030;
-    color: #e3dede;
-}
-#artitalk_main button#readmore.at_button:hover{
-    background: #787878;
-}

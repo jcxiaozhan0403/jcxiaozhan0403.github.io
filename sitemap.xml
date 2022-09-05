@@ -317,13 +317,6 @@
 
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/Git/</loc>
-    <lastmod>2022-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://jcxiaozhan.gitee.io/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2022-09-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -331,14 +324,7 @@
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/Java/</loc>
-    <lastmod>2022-09-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/Hibernate/</loc>
+    <loc>https://jcxiaozhan.gitee.io/tags/Git/</loc>
     <lastmod>2022-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -359,6 +345,20 @@
   </url>
   
   <url>
+    <loc>https://jcxiaozhan.gitee.io/tags/Java/</loc>
+    <lastmod>2022-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcxiaozhan.gitee.io/tags/Hibernate/</loc>
+    <lastmod>2022-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jcxiaozhan.gitee.io/tags/Mybatis/</loc>
     <lastmod>2022-09-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -366,14 +366,14 @@
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</loc>
+    <loc>https://jcxiaozhan.gitee.io/tags/%E4%B8%93%E5%8D%87%E6%9C%AC/</loc>
     <lastmod>2022-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/%E4%B8%93%E5%8D%87%E6%9C%AC/</loc>
+    <loc>https://jcxiaozhan.gitee.io/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</loc>
     <lastmod>2022-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -401,14 +401,14 @@
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/Markdown/</loc>
+    <loc>https://jcxiaozhan.gitee.io/tags/%E7%99%BE%E5%BA%A6%E4%BA%91/</loc>
     <lastmod>2022-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/tags/%E7%99%BE%E5%BA%A6%E4%BA%91/</loc>
+    <loc>https://jcxiaozhan.gitee.io/tags/Markdown/</loc>
     <lastmod>2022-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -431,14 +431,14 @@
 
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://jcxiaozhan.gitee.io/categories/%E7%94%9F%E6%B4%BB%E7%90%90%E7%A2%8E/</loc>
     <lastmod>2022-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jcxiaozhan.gitee.io/categories/%E7%94%9F%E6%B4%BB%E7%90%90%E7%A2%8E/</loc>
+    <loc>https://jcxiaozhan.gitee.io/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2022-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
