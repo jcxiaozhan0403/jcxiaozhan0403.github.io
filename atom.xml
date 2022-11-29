@@ -6,7 +6,7 @@
   <link href="https://jcxiaozhan.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://jcxiaozhan.gitee.io/"/>
-  <updated>2022-07-03T03:25:10.803Z</updated>
+  <updated>2022-11-29T13:59:32.622Z</updated>
   <id>https://jcxiaozhan.gitee.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>二分查找算法</title>
+    <link href="https://jcxiaozhan.gitee.io/2022/11/29/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/"/>
+    <id>https://jcxiaozhan.gitee.io/2022/11/29/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/</id>
+    <published>2022-11-28T16:00:00.000Z</published>
+    <updated>2022-11-29T13:59:32.622Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>二分查找（Binary Search）也叫作折半查找。是一种时间复杂度为<code>O(logN)</code>的查找算法</p><ul><li><p><a href="https://leetcode.cn/problems/binary-search/description/">力扣</a></p></li><li><p><a href="https://www.bilibili.com/video/BV1fA4y1o715/?vd_source=d6cbedbb3e249eafa593fdc79241d0c5">视频讲解</a></p></li></ul><h2 id="前提-amp-场景"><a href="#前提-amp-场景" class="headerlink" title="前提&amp;场景"></a>前提&amp;场景</h2><p>二分查找有两个要求，一个是数列有序（一般为升序排列），另一个是数列使用顺序存储结构（比如数组）</p><h2 id="算法分析"><a href="#算法分析" class="headerlink" title="算法分析"></a>算法分析</h2><p>最开始以整个数组为区间，找到区间的中间元素，与目标元素进行比对。根据比对结果调整区间边界，再次找到区间的中间元素，与目标元素进行比对，如此循环，直至找到目标元素为止。</p><h2 id="动画演示"><a href="#动画演示" class="headerlink" title="动画演示"></a>动画演示</h2><img src="https://img.jcxiaozhan.top/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E5%8A%A8%E7%94%BB.gif"><h2 id="注意点"><a href="#注意点" class="headerlink" title="注意点"></a>注意点</h2><ul><li>区间的划分要清晰</li><li>在编码时根据区间的定义来设置边界值</li></ul><h2 id="编码实现"><a href="#编码实现" class="headerlink" title="编码实现"></a>编码实现</h2><h3 id="左闭右闭区间思路"><a href="#左闭右闭区间思路" class="headerlink" title="左闭右闭区间思路"></a>左闭右闭区间思路</h3><blockquote><p>[left,right]</p></blockquote><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">search</span><span class="params">(<span class="type">int</span>[] nums, <span class="type">int</span> target)</span> &#123;</span><br><span class="line">        <span class="comment">//避免当target小于nums[0]或大于nums[nums.length - 1]时多次循环运算</span></span><br><span class="line">        <span class="keyword">if</span> (target &lt; nums[<span class="number">0</span>] || target &gt; nums[nums.length - <span class="number">1</span>]) &#123;</span><br><span class="line">            <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//因为右区间闭合，所以这里需要以数组最后一个下标值作为右边界</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">left</span> <span class="operator">=</span> <span class="number">0</span>, right = nums.length - <span class="number">1</span>;</span><br><span class="line">        <span class="comment">//因为左右区间都闭合，left = right是有意义的，所以这里使用 &lt;= 符号</span></span><br><span class="line">        <span class="keyword">while</span> (left &lt;= right) &#123;</span><br><span class="line">            <span class="comment">//此写法等同于(left+right)/2得到中间值，这里防止内存溢出</span></span><br><span class="line">            <span class="type">int</span> <span class="variable">mid</span> <span class="operator">=</span> left + ((right - left) &gt;&gt; <span class="number">1</span>);</span><br><span class="line">            <span class="keyword">if</span> (nums[mid] == target)</span><br><span class="line">                <span class="keyword">return</span> mid;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (nums[mid] &lt; target)</span><br><span class="line">                <span class="comment">//目标值位于中间值右边，所以调整区间左边界，因为左区间闭合，所以调整左边界为mid+1</span></span><br><span class="line">                left = mid + <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (nums[mid] &gt; target)</span><br><span class="line">                <span class="comment">//目标值位于中间值左边，所以调整区间右边界，因为右区间闭合，所以调整右边界为mid+1</span></span><br><span class="line">                right = mid - <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="左闭右开区间思路"><a href="#左闭右开区间思路" class="headerlink" title="左闭右开区间思路"></a>左闭右开区间思路</h3><blockquote><p>[left,right)</p></blockquote><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">search</span><span class="params">(<span class="type">int</span>[] nums, <span class="type">int</span> target)</span> &#123;</span><br><span class="line">        <span class="comment">//因为右区间开放，所以这里直接以数组长度作为右边界</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">left</span> <span class="operator">=</span> <span class="number">0</span>, right = nums.length;</span><br><span class="line">        <span class="keyword">while</span> (left &lt; right) &#123;</span><br><span class="line">            <span class="comment">//求取中间坐标，同左闭右闭</span></span><br><span class="line">            <span class="type">int</span> <span class="variable">mid</span> <span class="operator">=</span> left + ((right - left) &gt;&gt; <span class="number">1</span>);</span><br><span class="line">            <span class="keyword">if</span> (nums[mid] == target)</span><br><span class="line">                <span class="keyword">return</span> mid;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (nums[mid] &lt; target)</span><br><span class="line">                <span class="comment">//目标值位于中间值右边，所以调整区间左边界，因为左区间闭合，所以调整左边界为mid+1</span></span><br><span class="line">                left = mid + <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span> (nums[mid] &gt; target)</span><br><span class="line">                <span class="comment">//目标值位于中间值左边，所以调整区间右边界，因为右区间开放，所以调整右边界为mid</span></span><br><span class="line">                right = mid;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h2&gt;&lt;p&gt;二分查找（Binary Search）也叫作折半查找。是一种时间复杂度为&lt;code&gt;O(logN)&lt;/code&gt;的查找算法&lt;/p&gt;
+&lt;ul&gt;</summary>
+      
+    
+    
+    
+    <category term="编程学习" scheme="https://jcxiaozhan.gitee.io/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Java" scheme="https://jcxiaozhan.gitee.io/tags/Java/"/>
+    
+    <category term="算法" scheme="https://jcxiaozhan.gitee.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>写给五年后的自己的一封信</title>
@@ -497,32 +524,6 @@
     <category term="JSON" scheme="https://jcxiaozhan.gitee.io/tags/JSON/"/>
     
     <category term="JavaScript" scheme="https://jcxiaozhan.gitee.io/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>聊聊PanDownload</title>
-    <link href="https://jcxiaozhan.gitee.io/2020/04/17/%E8%81%8A%E8%81%8APanDownload/"/>
-    <id>https://jcxiaozhan.gitee.io/2020/04/17/%E8%81%8A%E8%81%8APanDownload/</id>
-    <published>2020-04-16T16:00:00.000Z</published>
-    <updated>2022-07-03T03:19:25.100Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="这篇文章，就PanDownload开发者被抓事件，我想谈谈自己的看法"><a href="#这篇文章，就PanDownload开发者被抓事件，我想谈谈自己的看法" class="headerlink" title="这篇文章，就PanDownload开发者被抓事件，我想谈谈自己的看法"></a>这篇文章，就PanDownload开发者被抓事件，我想谈谈自己的看法</h3><p>事情是这样的，2020年4月15日下午，PanDownload开发者蔡某萌被抓，他开发的这款软件可以突破百度网盘限速从而高速下载网盘文件，软件完全免费，深受大家喜欢。今年2月，有人报案说PanDownload泄漏了自己的隐私，警方开始调查。蔡某萌被抓后，警方爆出他非法盈利30余万，给百度公司带来了上千万的损失。</p><p>事发之后，各大贴吧论坛反应还是挺大的，可见这个软件用户群数量的庞大，网上骂声一片，矛头直指百度，你可能会说，为什么盗版软件侵权，正版软件却背负骂名呢。这就要说说百度网盘恶心人的限速机制了，普通用户是完全没有体验可言的，从网盘下载文件，限速最低可以到几kb&#x2F;s，就算是你交钱开通了所谓的超级会员，好像也不尽人意，据网友反映，好像还有个下载量限制，本人也有幸借过SVIP账号对比过两款软件的下载速度，下载同样的文件包，我的百度网盘客户端总下载速度4M&#x2F;s，而PanDownload总下载速度跑到了7M&#x2F;s，可见百度网盘对于SVIP也有限速机制。对于大部分用户而言，他们交钱开会员就是为了有一个好的体验(ps:博主从来没有开过会员，穷！)，很明显，百度让大家都失望了。</p><blockquote><p>领导，我求求你们别再追查PanDownload了，行吗？263块的超级会员svip，我充了三年，房子充没了。现在好不容易有了速度快的，你们非说它是假的。那软件假不假我们能不知道吗?那软件本来就不用花钱，你说制作者能赚钱吗？谁家能不下载呢，你就能保证你这一辈子不下载吗？你把他抓走了，我们都得2kb&#x2F;s。我不想慢，我想快点。——《我不是盘神》</p></blockquote><p>上面这是B站网友们玩的一个梗，虽然是梗，但我觉得，盘神这个比喻很恰当，虽然一些人已经把这次事件上升到了阶级矛盾，说是资本主义的垄断和剥削。我不是很懂，我只能站在我所能理解的角度去看待这个问题，百度网盘现在确实属于一家独大的局面，因为好多网上流传的资源都是用的百度网盘，庞大的用户群体让它有了垄断的资本，所以，没办法，大家都得用，然后，百度就真的没把用户当人看了，十分恶心的限速机制，网友戏称“毒云”，我记得很久以前我用的时候，还是很好的，那个时候叫百度云，普通用户的下载速度也能够到500K&#x2F;s左右，会员提速也是真实有效的，那个时候，百度云的评价还是很好的，大家也没抱怨过，会员机制也可以理解，毕竟要存放那么多人的资料，服务器是需要经费的。到后来，百度干的事情就越来越流氓了，以至于到如今，发生这件事，网友们一边倒地支持PanDwonload，替百度说话的没几个。</p><p>并不是推崇盗版，我们来简单分析下这件事，PanDownload从发布到现在应该也有一两年了，而且很早之前也出现过PanDownload加速无效的情况，估计是被百度网盘官方给制裁过。为什么当时不抓，现在来抓？刘某报案称自己隐私被泄露。你要不是个技术人员，你怎么知道自己隐私被泄露了？你是在某某网站上看到了自己的视频、照片、个人信息，还是什么，又怎么知道是通过PanDownload泄漏的？这个地方我真的很困惑，我觉得就是百度安排的，目的嘛，就是PanDownload确实影响到了百度的利益，然后加速下载的渠道，百度控制不了了，就找警察了。但是你说PanDownload造成了百度上千万的损失，我还真就不相信。软件上明确表示永久免费，严禁倒卖。非法盈利30万，这30万虽然是用户对软件的捐赠，这个从法律层面来说，确实违法了，但是从道德层面来讲，这是用户自愿的，是对软件的一种认可，而不像百度网盘，真就逼迫你消费，还不给你一个好的体验。</p><p>这次的事件，无非就是百度想要杀鸡儆猴，制裁这些损害自己利益的软件，目的达到了，拿了钱，失了人心，如果不从自身改变，等到哪天有一个替代品出现，百度网盘会凉得很快很彻底。</p><p><strong>以上只是我的个人观点，也不一定是正确的，这个事情每个人都有每个人自己的理解吧。虽然这个大佬这次触碰到法律了，但是技术无罪，我们也应该感谢他曾经用爱发电。</strong></p><img src="https://img.jcxiaozhan.top/PanDownload.jpg">]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;这篇文章，就PanDownload开发者被抓事件，我想谈谈自己的看法&quot;&gt;&lt;a href=&quot;#这篇文章，就PanDownload开发者被抓事件，我想谈谈自己的看法&quot; class=&quot;headerlink&quot; title=&quot;这篇文章，就PanDownload开发者被抓事件</summary>
-      
-    
-    
-    
-    <category term="生活琐碎" scheme="https://jcxiaozhan.gitee.io/categories/%E7%94%9F%E6%B4%BB%E7%90%90%E7%A2%8E/"/>
-    
-    
-    <category term="百度云" scheme="https://jcxiaozhan.gitee.io/tags/%E7%99%BE%E5%BA%A6%E4%BA%91/"/>
-    
-    <category term="PanDownload" scheme="https://jcxiaozhan.gitee.io/tags/PanDownload/"/>
     
   </entry>
   
