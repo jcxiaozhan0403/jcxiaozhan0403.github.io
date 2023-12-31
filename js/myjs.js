@@ -34,21 +34,21 @@ function setTime() {
     document.getElementById("htmer_time").innerHTML = currentTimeHtml;
 }    setInterval(setTime, 1000);
 
-//动态网站名
-var OriginTitile = document.title;
-var titleTime;
-document.addEventListener('visibilitychange', function() {
-    if (document.hidden) {
-                    document.title = '小站没了！！！Σ(っ °Д °;)っ';
-        clearTimeout(titleTime);
-                }
-    else {
-                    document.title = '逗你玩呢~~(๑乛◡乛๑ )';
-        titleTime = setTimeout(function() {
-            document.title = OriginTitile;
-        }, 3000);
-                }
-});
+// //动态网站名
+// var OriginTitile = document.title;
+// var titleTime;
+// document.addEventListener('visibilitychange', function() {
+//     if (document.hidden) {
+//                     document.title = '小站没了！！！Σ(っ °Д °;)っ';
+//         clearTimeout(titleTime);
+//                 }
+//     else {
+//                     document.title = '逗你玩呢~~(๑乛◡乛๑ )';
+//         titleTime = setTimeout(function() {
+//             document.title = OriginTitile;
+//         }, 3000);
+//                 }
+// });
 
 //解决跨站访问的问题
 var head = document.getElementsByTagName("head");
